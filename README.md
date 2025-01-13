@@ -47,3 +47,13 @@ To run a pairwise conditional analysis on clusters after the steps above, follow
 1. To limit the computation time, [create a MAGMA input file with only top clusters](MAGMA/3.create_top_results_matrix.md), as indicated by the results from the previous step.
 2. [Run a pairwise conditional analysis.](MAGMA/4.conditionalAnalysis.sh)
 3. [Conduct a forward stepwise selection](MAGMA/5.forward_selection_condition_results.md) to arrive at a list of independent clusters.
+
+## Cite us
+```
+@article {Duncan2024.10.21.24315695,
+	author = {Duncan, Laramie E and Li, Tayden and Salem, Madeleine and Li, Will and Mortazavi, Leili and Senturk, Hazal and Shargh, Naghmeh and Vesuna, Sam and Shen, Hanyang and Yoon, Jong and Wang, Gordon and Ballon, Jacob and Tan, Longzhi and Pruett, Brandon Scott and Knutson, Brian and Deisseroth, Karl and Giardino, William J},
+	title = {Mapping the Cellular Etiology of Schizophrenia and Diverse Brain Phenotypes},
+	year = {2024},
+	journal = {medRxiv}
+}
+```
