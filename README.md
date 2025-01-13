@@ -34,7 +34,7 @@ Before running the analysis, please ensure that you have the following software 
   
 > [!IMPORTANT]  
 > Ensure Data Compatibility. Please confirm the following items before proceeding to the MAGMA analysis:
-> 1. The summary statistics are from a single population that matches MAGMA's auxiliary data.
+> 1. The summary statistics are from a non-admixed population that matches MAGMA's auxiliary data.
 > 2. The summary statistics are the same genome build as MAGMA's auxiliary files.
 > 3. If the summary statistics do not contain a SNP ID column, obtain the SNP IDs from the chromosomal and base pair positions using a reference file of the same genome build.
 
