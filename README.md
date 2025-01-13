@@ -4,7 +4,7 @@ Laramie E Duncan*, Tayden Li*, Madeleine Salem, Will Li, Leili Mortazavi, Hazal 
 ## Summary 
 This repository presents a comprehensive data-driven approach to unraveling the cellular and molecular underpinnings of psychiatric disorders, with a focus on schizophrenia. By integrating single nuclei RNA sequencing (snRNAseq) data with genome-wide association studies (GWAS) results, our work identifies and characterizes specific brain cell types implicated in disease etiology. Our findings not only validate previously reported associations but also reveal novel cell type contributions, achieving greater molecular specificity than earlier studies. This project further lays the foundation for a cell-type based classification system and offers a strategic roadmap for drug repurposing, novel therapeutic development, and personalized treatment strategies for psychiatric and other complex brain disorders.
 
-<img width="947" alt="image" src="https://github.com/user-attachments/assets/435c1c36-c08b-48f3-952f-bdf84ff690f9" />
+<img width="822" alt="Screenshot 2025-01-13 at 10 59 25 AM" src="https://github.com/user-attachments/assets/e06c8a9d-cedd-475b-ab2e-8436ec598138" />
 
 > [!WARNING]
 > In our analysis, the term "cluster" as used in the Siletti 2023 paper is referred to as "cell types". Please keep this terminology difference in mind when interpreting the results and comparing findings with the original publication.
