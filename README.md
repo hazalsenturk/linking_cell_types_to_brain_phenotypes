@@ -4,7 +4,7 @@ Laramie E Duncan*, Tayden Li*, Madeleine Salem, Will Li, Leili Mortazavi, Hazal 
 ## Summary 
 This repository presents a comprehensive data-driven approach to unraveling the cellular and molecular underpinnings of psychiatric disorders, with a focus on schizophrenia. By integrating single nuclei RNA sequencing (snRNAseq) data with genome-wide association studies (GWAS) results, our work identifies and characterizes specific brain cell types implicated in disease etiology. Our findings not only validate previously reported associations but also reveal novel cell type contributions, achieving greater molecular specificity than earlier studies. This project further lays the foundation for a cell-type based classification system and offers a strategic roadmap for drug repurposing, novel therapeutic development, and personalized treatment strategies for psychiatric and other complex brain disorders.
 
-## Software Requirements
+## Environment Setup
 1. Python libraries: `h5py`, `numexpr`
 2. R libraries: `tidyverse`, `rhdf5`, `AnnotationDbi`, `org.Hs.eg.db`, `dplyr`, `readr` 
 3. [MAGMA v1.10](https://cncr.nl/research/magma/)
