@@ -5,6 +5,7 @@ Laramie E Duncan*, Tayden Li*, Madeleine Salem, Will Li, Leili Mortazavi, Hazal 
 This repository presents a comprehensive data-driven approach to unraveling the cellular and molecular underpinnings of psychiatric disorders, with a focus on schizophrenia. By integrating single nuclei RNA sequencing (snRNAseq) data with genome-wide association studies (GWAS) results, our work identifies and characterizes specific brain cell types implicated in disease etiology. Our findings not only validate previously reported associations but also reveal novel cell type contributions, achieving greater molecular specificity than earlier studies. This project further lays the foundation for a cell-type based classification system and offers a strategic roadmap for drug repurposing, novel therapeutic development, and personalized treatment strategies for psychiatric and other complex brain disorders.
 
 ## Environment Setup
+Before running the analysis, please ensure that you have the following software and libraries installed.
 1. Python libraries: `h5py`, `numexpr`
 2. R libraries: `tidyverse`, `rhdf5`, `AnnotationDbi`, `org.Hs.eg.db`, `dplyr`, `readr` 
 3. [MAGMA v1.10](https://cncr.nl/research/magma/)
@@ -24,6 +25,12 @@ This repository presents a comprehensive data-driven approach to unraveling the 
       - `g1000_eur.fam`, md5sum = `6935b96c7e6f2a8f6122a049969bd0b8`
       - `g1000_eur.synonyms`, md5sum = `2807fd31bf0e92685c63629dc49b6574`
     - Put these 5 files in a directory called `aux` to use when running MAGMA
+  
+> [!IMPORTANT]  
+> Ensure Data Compatibility. Please confirm the following items:
+> 1. The summary statistics are from a single population that matches MAGMA's auxiliary data.
+> 2. The summary statistics are the same genome build as MAGMA's auxiliary files.
+> 3. If the summary statistics do not contain a SNP ID column, obtain the SNP IDs from the chromosomal and base pair positions using a reference file of the same genome build.
 
 ## Get MAGMA Inputs
 Follow the following steps:
@@ -31,10 +38,6 @@ Follow the following steps:
 2. [Preprocess the matrix and calculate specificity.](Preprocessing_Siletti/create_magma_inputs/get_Siletti_continuous_input.md)
 
 ## Run MAGMA
-First, confirm the following items:
-1. The summary statistics are from a single population that matches MAGMA's auxiliary data.
-2. The summary statistics are the same genome build as MAGMA's auxiliary files.
-3. If the summary statistics do not contain a SNP ID column, obtain the SNP IDs from the chromosomal and base pair positions using a reference file of the same genome build.
 
 Then, follow the steps below to run MAGMA (scripts to be modified accordingly):
 1. Create a SNP location file (`snploc_{GWAS_file_name}`) that contains three columns of the GWAS summary statistics in the following order: SNP ID, chromosome, and base pair position.
