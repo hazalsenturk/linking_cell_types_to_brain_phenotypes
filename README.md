@@ -6,6 +6,7 @@ This repository presents a comprehensive data-driven approach to unraveling the 
 
 <img width="822" alt="Screenshot 2025-01-13 at 10 59 25 AM" src="https://github.com/user-attachments/assets/e06c8a9d-cedd-475b-ab2e-8436ec598138" />
 
+
 > [!WARNING]
 > In our analysis, the term "cluster" as used in the Siletti 2023 paper is referred to as "cell types". Please keep this terminology difference in mind when interpreting the results and comparing findings with the original publication.
 
@@ -32,7 +33,7 @@ Before running the analysis, please ensure that you have the following software 
     - Put these 5 files in a directory called `aux` to use when running MAGMA
   
 > [!IMPORTANT]  
-> Ensure Data Compatibility. Please confirm the following items:
+> Ensure Data Compatibility. Please confirm the following items before proceeding to the MAGMA analysis:
 > 1. The summary statistics are from a single population that matches MAGMA's auxiliary data.
 > 2. The summary statistics are the same genome build as MAGMA's auxiliary files.
 > 3. If the summary statistics do not contain a SNP ID column, obtain the SNP IDs from the chromosomal and base pair positions using a reference file of the same genome build.
