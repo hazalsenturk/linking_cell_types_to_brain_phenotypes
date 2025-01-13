@@ -1,7 +1,8 @@
 # Mapping the Cellular Etiology of Schizophrenia and Diverse Brain Phenotypes
-This is the code for the following publication:
-Laramie E Duncan*, Tayden Li*, Madeleine Salem, Will Li, Leili Mortazavi, Hazal Senturk, Naghmeh Shargh, Sam Vesuna, Hanyang Shen, Jong Yoon, Gordon Wang, Jacob Ballon, Longzhi Tan, Brandon Scott Pruett, Brian Knutson, Karl Deisseroth, William J Giardino. Mapping the Cellular Etiology of Schizophrenia and Diverse Brain Phenotypes (in revision).
+Laramie E Duncan*, Tayden Li*, Madeleine Salem, Will Li, Leili Mortazavi, Hazal Senturk, Naghmeh Shargh, Sam Vesuna, Hanyang Shen, Jong Yoon, Gordon Wang, Jacob Ballon, Longzhi Tan, Brandon Scott Pruett, Brian Knutson, Karl Deisseroth, William J Giardino. 
 
+## Summary 
+This repository presents a comprehensive data-driven approach to unraveling the cellular and molecular underpinnings of psychiatric disorders, with a focus on schizophrenia. By integrating single nuclei RNA sequencing (snRNAseq) data with genome-wide association studies (GWAS) results, our work identifies and characterizes specific brain cell types implicated in disease etiology. Our findings not only validate previously reported associations but also reveal novel cell type contributions, achieving greater molecular specificity than earlier studies. This project further lays the foundation for a cell-type based classification system and offers a strategic roadmap for drug repurposing, novel therapeutic development, and personalized treatment strategies for psychiatric and other complex brain disorders.
 
 ## Software Requirements
 1. Python libraries: `h5py`, `numexpr`
